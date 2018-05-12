@@ -11,3 +11,5 @@ print_next_prime: Taktéž upraveno pro celočíselné floaty + snížená náro
 Pár slov k testům:
 
 Z hlediska těch dvou číselných fcí nedělám pro každý subproblém zvlášťní test, všechny potenciální (výše vytčené/odstraněné) problémy se snažím, pokud možno, pokrýt v jedné sadě testů s parametrize.
+
+test_abc_random_string: pokouším se i o test náhodnosti stringu pro případ, že by fce generovala stále stejné str. Ale především u kratkých délek může ojediněle dojít k tomu, že se náhodou stejné str vážně vygenerují. Ponechavám proto jistou toleranci (randomness_index), ale čistě teoreticky může test vyhodit chybu.  
